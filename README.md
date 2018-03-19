@@ -2,7 +2,7 @@
 JavaFX Application that mutes Applications when they are in the background.
 
 # How to
-1. Download from Github [link](https://github.com/LukasDoubleU/MuteInBackground/releases/download/v1.0/MuteInBackground.zip)
+1. Download from Github [link](https://github.com/LukasDoubleU/MuteInBackground/releases/download/v1.1/MuteInBackground.zip)
 2. Unzip
 3. Run MuteInBackground.exe
 
