@@ -108,7 +108,7 @@ class MainView : View("Mute In Background") {
                 val msg = "Requires admin rights.\n" +
                         "You can always create the link yourself.\n" +
                         "Create a link to the MuteInBackground.exe in the autostart folder.\n" +
-                        "The button to the left will open that folder."
+                        "The button to the right will open that folder."
                 hbox {
                     alignment = Pos.CENTER
                     spacing = 5.0

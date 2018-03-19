@@ -44,7 +44,6 @@ object Properties {
     fun file(): File {
         if (Files.notExists(path)) {
             Files.createFile(path)
-            Files.setAttribute(path, "dos:hidden", true)
         }
         return file
     }

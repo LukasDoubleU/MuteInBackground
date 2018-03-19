@@ -20,7 +20,11 @@ object WindowStorage {
                 onChange { Properties.mutedWindows = toString(this.toTypedArray()) }
             }
 
-    fun find(pid: Long) = windows.find { it.pid == pid }
+    fun find(pid: Long) = try {
+        windows.find { it.pid == pid }
+    } catch (e: ConcurrentModificationException) {
+        null
+    }
 
     fun update(window: Window) {
         val w = find(window.pid)
